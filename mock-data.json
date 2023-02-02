@@ -1,0 +1,1533 @@
+{
+  "containers": [
+    {
+      "nodeId": "headend-1",
+      "nodeType": "HeadEndNode",
+      "devices": [],
+      "cables": [],
+      "connections": {},
+      "code": "VPC001"
+    },
+    {
+      "nodeId": "post4",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP1.302",
+          "code": "SP1.302",
+          "s": {
+            "maxOutputPorts": 8,
+            "variant": "S1_8_2S2_8"
+          },
+          "nup": 2,
+          "type": "SP1Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post3_post4",
+          "sc": "MS0001",
+          "tc": "container1",
+          "sn": "post3",
+          "tn": "post4",
+          "code": "CT004",
+          "nuc": 1,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 8,
+            "variant": "OC_8",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "SP1.302": [
+          {
+            "tc": "SP2.401",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          },
+          {
+            "tc": "SP2.402",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 2,
+                "t": null
+              }
+            ]
+          }
+        ],
+        "CT004": [
+          {
+            "tc": "SP1.302",
+            "tt": "SP1Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container1"
+    },
+    {
+      "nodeId": "post5",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP1.303",
+          "code": "SP1.303",
+          "s": {
+            "maxOutputPorts": 8,
+            "variant": "S1_8_2S2_8"
+          },
+          "nup": 4,
+          "type": "SP1Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post3_post5",
+          "sc": "MS0001",
+          "tc": "container2",
+          "sn": "post3",
+          "tn": "post5",
+          "code": "CT0010",
+          "nuc": 1,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 12,
+            "variant": "OC_12",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "SP1.303": [
+          {
+            "tc": "CT005",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 3,
+                "t": 1
+              }
+            ]
+          },
+          {
+            "tc": "CT006",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 4,
+                "t": 1
+              }
+            ]
+          },
+          {
+            "tc": "SP2.403",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          },
+          {
+            "tc": "SP2.404",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 2,
+                "t": null
+              }
+            ]
+          }
+        ],
+        "CT0010": [
+          {
+            "tc": "SP1.303",
+            "tt": "SP1Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container2"
+    },
+    {
+      "nodeId": "post11",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP1.304",
+          "code": "SP1.304",
+          "s": {
+            "maxOutputPorts": 8,
+            "variant": "S1_8_2S2_8"
+          },
+          "nup": 2,
+          "type": "SP1Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post13_post11",
+          "sc": "MS0002",
+          "tc": "container3",
+          "sn": "post13",
+          "tn": "post11",
+          "code": "CT0017",
+          "nuc": 1,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 12,
+            "variant": "OC_12",
+            "implementType": 2
+          }
+        }
+      ],
+      "connections": {
+        "SP1.304": [
+          {
+            "tc": "SP2.405",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          },
+          {
+            "tc": "SP2.406",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 2,
+                "t": null
+              }
+            ]
+          }
+        ],
+        "CT0017": [
+          {
+            "tc": "SP1.304",
+            "tt": "SP1Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container3"
+    },
+    {
+      "nodeId": "post9",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP1.305",
+          "code": "SP1.305",
+          "s": {
+            "maxOutputPorts": 8,
+            "variant": "S1_8_2S2_8"
+          },
+          "nup": 4,
+          "type": "SP1Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post13_post9",
+          "sc": "MS0002",
+          "tc": "container4",
+          "sn": "post13",
+          "tn": "post9",
+          "code": "CT0014",
+          "nuc": 1,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 24,
+            "variant": "OC_24",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "SP1.305": [
+          {
+            "tc": "CT0013",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 3,
+                "t": 1
+              },
+              {
+                "s": 4,
+                "t": 2
+              },
+              {
+                "s": 5,
+                "t": 3
+              }
+            ]
+          },
+          {
+            "tc": "CT0015",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 6,
+                "t": 1
+              },
+              {
+                "s": 7,
+                "t": 2
+              },
+              {
+                "s": 8,
+                "t": 3
+              }
+            ]
+          },
+          {
+            "tc": "SP2.407",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          },
+          {
+            "tc": "SP2.408",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 2,
+                "t": null
+              }
+            ]
+          }
+        ],
+        "CT0014": [
+          {
+            "tc": "SP1.305",
+            "tt": "SP1Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container4"
+    },
+    {
+      "nodeId": "post18",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP1.301",
+          "code": "SP1.301",
+          "s": {
+            "maxOutputPorts": 8,
+            "variant": "S1_8_2S2_8"
+          },
+          "nup": 4,
+          "type": "SP1Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post13_post18",
+          "sc": "MS0002",
+          "tc": "container20",
+          "sn": "post13",
+          "tn": "post18",
+          "code": "CT007",
+          "nuc": 1,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 8,
+            "variant": "OC_8",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "SP1.301": [
+          {
+            "tc": "CT0019",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 3,
+                "t": 1
+              },
+              {
+                "s": 4,
+                "t": 2
+              },
+              {
+                "s": 5,
+                "t": 3
+              }
+            ]
+          },
+          {
+            "tc": "CT0021",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 6,
+                "t": 1
+              },
+              {
+                "s": 7,
+                "t": 2
+              },
+              {
+                "s": 8,
+                "t": 3
+              }
+            ]
+          },
+          {
+            "tc": "SP2.409",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          },
+          {
+            "tc": "SP2.410",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 2,
+                "t": null
+              }
+            ]
+          }
+        ],
+        "CT007": [
+          {
+            "tc": "SP1.301",
+            "tt": "SP1Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container20"
+    },
+    {
+      "nodeId": "post2",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP1.001",
+          "code": "SP1.001",
+          "s": {
+            "maxOutputPorts": 4,
+            "variant": "S1_4"
+          },
+          "nup": 1,
+          "type": "SP1Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post3_post2",
+          "sc": "MS0001",
+          "tc": "container13",
+          "sn": "post3",
+          "tn": "post2",
+          "code": "CT003",
+          "nuc": 1,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 48,
+            "variant": "OC_48",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "SP1.001": [
+          {
+            "tc": "CT002",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 3,
+                "t": 1
+              }
+            ]
+          }
+        ],
+        "CT003": [
+          {
+            "tc": "SP1.001",
+            "tt": "SP1Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container13"
+    },
+    {
+      "nodeId": "post1",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP2.001",
+          "code": "SP2.001",
+          "s": {
+            "maxOutputPorts": 4,
+            "variant": "S2_4"
+          },
+          "nup": 0,
+          "type": "SP2Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post2_post1",
+          "sc": "container13",
+          "tc": "container5",
+          "sn": "post2",
+          "tn": "post1",
+          "code": "CT002",
+          "nuc": 1,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 48,
+            "variant": "OC_48",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "SP2.001": [],
+        "CT002": [
+          {
+            "tc": "SP2.001",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container5"
+    },
+    {
+      "nodeId": "post6",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP2.005",
+          "code": "SP2.005",
+          "s": {
+            "maxOutputPorts": 8,
+            "variant": "S2_8"
+          },
+          "nup": 0,
+          "type": "SP2Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post7_post6",
+          "sc": "container7",
+          "tc": "container6",
+          "sn": "post7",
+          "tn": "post6",
+          "code": "CT0011",
+          "nuc": 1,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 48,
+            "variant": "OC_48",
+            "implementType": 2
+          }
+        }
+      ],
+      "connections": {
+        "SP2.005": [],
+        "CT0011": [
+          {
+            "tc": "SP2.005",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container6"
+    },
+    {
+      "nodeId": "post7",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP2.004",
+          "code": "SP2.004",
+          "s": {
+            "maxOutputPorts": 4,
+            "variant": "S2_4"
+          },
+          "nup": 0,
+          "type": "SP2Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post8_post7",
+          "sc": "container8",
+          "tc": "container7",
+          "sn": "post8",
+          "tn": "post7",
+          "code": "CT0012",
+          "nuc": 2,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 48,
+            "variant": "OC_48",
+            "implementType": 2
+          }
+        }
+      ],
+      "connections": {
+        "SP2.004": [],
+        "CT0012": [
+          {
+            "tc": "CT0011",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 2,
+                "t": 1
+              }
+            ]
+          },
+          {
+            "tc": "SP2.004",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container7"
+    },
+    {
+      "nodeId": "post8",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP2.003",
+          "code": "SP2.003",
+          "s": {
+            "maxOutputPorts": 8,
+            "variant": "S2_8"
+          },
+          "nup": 0,
+          "type": "SP2Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post9_post8",
+          "sc": "container4",
+          "tc": "container8",
+          "sn": "post9",
+          "tn": "post8",
+          "code": "CT0013",
+          "nuc": 2,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 24,
+            "variant": "OC_24",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "SP2.003": [],
+        "CT0013": [
+          {
+            "tc": "CT0012",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 2,
+                "t": 1
+              },
+              {
+                "s": 3,
+                "t": 2
+              }
+            ]
+          },
+          {
+            "tc": "SP2.003",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container8"
+    },
+    {
+      "nodeId": "post10",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP2.007",
+          "code": "SP2.007",
+          "s": {
+            "maxOutputPorts": 4,
+            "variant": "S2_4"
+          },
+          "nup": 0,
+          "type": "SP2Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post9_post10",
+          "sc": "container4",
+          "tc": "container9",
+          "sn": "post9",
+          "tn": "post10",
+          "code": "CT0015",
+          "nuc": 2,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 24,
+            "variant": "OC_24",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "SP2.007": [],
+        "CT0015": [
+          {
+            "tc": "CT0016",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 2,
+                "t": 1
+              },
+              {
+                "s": 3,
+                "t": 2
+              }
+            ]
+          },
+          {
+            "tc": "SP2.007",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container9"
+    },
+    {
+      "nodeId": "post12",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP2.009",
+          "code": "SP2.009",
+          "s": {
+            "maxOutputPorts": 4,
+            "variant": "S2_4"
+          },
+          "nup": 0,
+          "type": "SP2Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post10_post12",
+          "sc": "container9",
+          "tc": "container10",
+          "sn": "post10",
+          "tn": "post12",
+          "code": "CT0016",
+          "nuc": 2,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 24,
+            "variant": "OC_24",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "SP2.009": [],
+        "CT0016": [
+          {
+            "tc": "CT0018",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 2,
+                "t": 1
+              }
+            ]
+          },
+          {
+            "tc": "SP2.009",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container10"
+    },
+    {
+      "nodeId": "post17",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP2.201",
+          "code": "SP2.201",
+          "s": {
+            "maxOutputPorts": 4,
+            "variant": "S2_4"
+          },
+          "nup": 0,
+          "type": "SP2Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post5_post17",
+          "sc": "container2",
+          "tc": "container14",
+          "sn": "post5",
+          "tn": "post17",
+          "code": "CT006",
+          "nuc": 1,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 8,
+            "variant": "OC_8",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "SP2.201": [],
+        "CT006": [
+          {
+            "tc": "SP2.201",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container14"
+    },
+    {
+      "nodeId": "post19",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP2.202",
+          "code": "SP2.202",
+          "s": {
+            "maxOutputPorts": 16,
+            "variant": "2S2_8"
+          },
+          "nup": 0,
+          "type": "SP2Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post18_post19",
+          "sc": "container20",
+          "tc": "container15",
+          "sn": "post18",
+          "tn": "post19",
+          "code": "CT0019",
+          "nuc": 2,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 8,
+            "variant": "OC_8",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "SP2.202": [],
+        "CT0019": [
+          {
+            "tc": "CT0020",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 3,
+                "t": 1
+              }
+            ]
+          },
+          {
+            "tc": "SP2.202",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              },
+              {
+                "s": 2,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container15"
+    },
+    {
+      "nodeId": "post20",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP2.203",
+          "code": "SP2.203",
+          "s": {
+            "maxOutputPorts": 8,
+            "variant": "S2_8"
+          },
+          "nup": 0,
+          "type": "SP2Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post19_post20",
+          "sc": "container15",
+          "tc": "container16",
+          "sn": "post19",
+          "tn": "post20",
+          "code": "CT0020",
+          "nuc": 1,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 8,
+            "variant": "OC_8",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "SP2.203": [],
+        "CT0020": [
+          {
+            "tc": "SP2.203",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container16"
+    },
+    {
+      "nodeId": "post21",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP2.204",
+          "code": "SP2.204",
+          "s": {
+            "maxOutputPorts": 4,
+            "variant": "S2_4"
+          },
+          "nup": 0,
+          "type": "SP2Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post18_post21",
+          "sc": "container20",
+          "tc": "container17",
+          "sn": "post18",
+          "tn": "post21",
+          "code": "CT0021",
+          "nuc": 2,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 8,
+            "variant": "OC_8",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "SP2.204": [],
+        "CT0021": [
+          {
+            "tc": "CT008",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 2,
+                "t": 1
+              },
+              {
+                "s": 3,
+                "t": 2
+              }
+            ]
+          },
+          {
+            "tc": "SP2.204",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container17"
+    },
+    {
+      "nodeId": "post22",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP2.205",
+          "code": "SP2.205",
+          "s": {
+            "maxOutputPorts": 4,
+            "variant": "S2_4"
+          },
+          "nup": 0,
+          "type": "SP2Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post21_post22",
+          "sc": "container17",
+          "tc": "container18",
+          "sn": "post21",
+          "tn": "post22",
+          "code": "CT008",
+          "nuc": 2,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 8,
+            "variant": "OC_8",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "SP2.205": [],
+        "CT008": [
+          {
+            "tc": "CT0022",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 2,
+                "t": 1
+              }
+            ]
+          },
+          {
+            "tc": "SP2.205",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container18"
+    },
+    {
+      "nodeId": "post23",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP2.206",
+          "code": "SP2.206",
+          "s": {
+            "maxOutputPorts": 8,
+            "variant": "S2_8"
+          },
+          "nup": 0,
+          "type": "SP2Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post22_post23",
+          "sc": "container18",
+          "tc": "container19",
+          "sn": "post22",
+          "tn": "post23",
+          "code": "CT0022",
+          "nuc": 1,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 8,
+            "variant": "OC_8",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "SP2.206": [],
+        "CT0022": [
+          {
+            "tc": "SP2.206",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container19"
+    },
+    {
+      "nodeId": "post_of_sp2_1",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP2.011",
+          "code": "SP2.011",
+          "s": {
+            "maxOutputPorts": 4,
+            "variant": "S2_4"
+          },
+          "nup": 0,
+          "type": "SP2Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post12_post_of_sp2_1",
+          "sc": "container10",
+          "tc": "container11",
+          "sn": "post12",
+          "tn": "post_of_sp2_1",
+          "code": "CT0018",
+          "nuc": 1,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 24,
+            "variant": "OC_24",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "SP2.011": [],
+        "CT0018": [
+          {
+            "tc": "SP2.011",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container11"
+    },
+    {
+      "nodeId": "post16",
+      "nodeType": "PostNode",
+      "devices": [
+        {
+          "id": "SP2.012",
+          "code": "SP2.012",
+          "s": {
+            "maxOutputPorts": 8,
+            "variant": "S2_8"
+          },
+          "nup": 0,
+          "type": "SP2Device"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post5_post16",
+          "sc": "container2",
+          "tc": "container12",
+          "sn": "post5",
+          "tn": "post16",
+          "code": "CT005",
+          "nuc": 1,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 8,
+            "variant": "OC_8",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "SP2.012": [],
+        "CT005": [
+          {
+            "tc": "SP2.012",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      },
+      "code": "container12"
+    },
+    {
+      "nodeId": "post3",
+      "nodeType": "MSNode",
+      "devices": [
+        {
+          "id": "3cb2ebce-16aa-4faf-80ca-adcc015404f0",
+          "code": "MS0001",
+          "s": {
+            "variant": "MS_96"
+          },
+          "nup": 0,
+          "type": "MSDevice"
+        }
+      ],
+      "cables": [
+        {
+          "id": "VPC001_post3",
+          "sc": "container22",
+          "tc": "VPC001",
+          "sn": "headend-1",
+          "tn": "post3",
+          "code": "CT009",
+          "nuc": 4,
+          "s": {
+            "uplink": true,
+            "length": 0,
+            "numberOfCores": 96,
+            "variant": "OC_96",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "MS0001": [],
+        "CT009": [
+          {
+            "tc": "CT001",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 1,
+                "t": 1
+              },
+              {
+                "s": 2,
+                "t": 2
+              },
+              {
+                "s": 3,
+                "t": 3
+              },
+              {
+                "s": 4,
+                "t": 4
+              }
+            ]
+          },
+          {
+            "tc": "CT003",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 5,
+                "t": 1
+              },
+              {
+                "s": 6,
+                "t": 2
+              },
+              {
+                "s": 7,
+                "t": 3
+              },
+              {
+                "s": 8,
+                "t": 4
+              }
+            ]
+          },
+          {
+            "tc": "CT004",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 9,
+                "t": 1
+              },
+              {
+                "s": 10,
+                "t": 2
+              },
+              {
+                "s": 11,
+                "t": 3
+              },
+              {
+                "s": 12,
+                "t": 4
+              }
+            ]
+          },
+          {
+            "tc": "CT0010",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 13,
+                "t": 1
+              },
+              {
+                "s": 14,
+                "t": 2
+              },
+              {
+                "s": 15,
+                "t": 3
+              },
+              {
+                "s": 16,
+                "t": 4
+              }
+            ]
+          }
+        ]
+      },
+      "code": "MS0001"
+    },
+    {
+      "nodeId": "post13",
+      "nodeType": "MSNode",
+      "devices": [
+        {
+          "id": "9ea8c58c-c552-4150-adf9-b7799a4f696c",
+          "code": "MS0002",
+          "s": {
+            "variant": "MS_12"
+          },
+          "nup": 0,
+          "type": "MSDevice"
+        }
+      ],
+      "cables": [
+        {
+          "id": "post3_post13",
+          "sc": "MS0001",
+          "tc": "container23",
+          "sn": "post3",
+          "tn": "post13",
+          "code": "CT001",
+          "nuc": 3,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 96,
+            "variant": "OC_96",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "MS0002": [],
+        "CT001": [
+          {
+            "tc": "CT0014",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 1,
+                "t": 1
+              },
+              {
+                "s": 2,
+                "t": 2
+              }
+            ]
+          },
+          {
+            "tc": "CT0017",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 3,
+                "t": 1
+              }
+            ]
+          },
+          {
+            "tc": "CT007",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 4,
+                "t": 1
+              }
+            ]
+          }
+        ]
+      },
+      "code": "MS0002"
+    },
+    {
+      "nodeId": "hfc51",
+      "nodeType": "PostNode",
+      "devices": [],
+      "cables": [
+        {
+          "id": "post23_hfc51",
+          "sc": "container1",
+          "tc": "container2",
+          "sn": "post23",
+          "tn": "hfc51",
+          "code": "CT0023",
+          "nuc": 0,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 12,
+            "variant": "OC_12",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "CT0023": []
+      },
+      "code": "container2"
+    }
+  ]
+}

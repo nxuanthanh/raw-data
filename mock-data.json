@@ -1351,7 +1351,7 @@
       "nodeType": "MSNode",
       "devices": [
         {
-          "id": "3cb2ebce-16aa-4faf-80ca-adcc015404f0",
+          "id": "30160d3a-5377-4a15-ab5a-9e2fa7d90ec7",
           "code": "MS0001",
           "s": {
             "variant": "MS_96"
@@ -1363,8 +1363,8 @@
       "cables": [
         {
           "id": "VPC001_post3",
-          "sc": "container22",
-          "tc": "VPC001",
+          "sc": "VPC001",
+          "tc": "MS0001",
           "sn": "headend-1",
           "tn": "post3",
           "code": "CT009",
@@ -1482,7 +1482,7 @@
       "nodeType": "MSNode",
       "devices": [
         {
-          "id": "9ea8c58c-c552-4150-adf9-b7799a4f696c",
+          "id": "a9bf1813-219b-4edd-a62a-7c7802228e66",
           "code": "MS0002",
           "s": {
             "variant": "MS_12"

@@ -1501,33 +1501,6 @@
         ]
       },
       "code": "MS0002"
-    },
-    {
-      "nodeId": "hfc51",
-      "nodeType": "PostNode",
-      "devices": [],
-      "cables": [
-        {
-          "id": "post23_hfc51",
-          "sc": "container1",
-          "tc": "container2",
-          "sn": "post23",
-          "tn": "hfc51",
-          "code": "CT0023",
-          "nuc": 0,
-          "s": {
-            "uplink": false,
-            "length": 0,
-            "numberOfCores": 12,
-            "variant": "OC_12",
-            "implementType": 1
-          }
-        }
-      ],
-      "connections": {
-        "CT0023": []
-      },
-      "code": "container2"
     }
   ]
 }

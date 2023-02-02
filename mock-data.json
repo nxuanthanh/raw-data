@@ -44,6 +44,7 @@
       "connections": {
         "SP1.302": [
           {
+            "ti": "SP2.401",
             "tc": "SP2.401",
             "tt": "SP2Device",
             "ps": [
@@ -54,6 +55,7 @@
             ]
           },
           {
+            "ti": "SP2.402",
             "tc": "SP2.402",
             "tt": "SP2Device",
             "ps": [
@@ -66,6 +68,7 @@
         ],
         "CT004": [
           {
+            "ti": "SP1.302",
             "tc": "SP1.302",
             "tt": "SP1Device",
             "ps": [
@@ -115,6 +118,7 @@
       "connections": {
         "SP1.303": [
           {
+            "ti": "post5_post16",
             "tc": "CT005",
             "tt": "OpticalCable",
             "ps": [
@@ -125,6 +129,7 @@
             ]
           },
           {
+            "ti": "post5_post17",
             "tc": "CT006",
             "tt": "OpticalCable",
             "ps": [
@@ -135,6 +140,7 @@
             ]
           },
           {
+            "ti": "SP2.403",
             "tc": "SP2.403",
             "tt": "SP2Device",
             "ps": [
@@ -145,6 +151,7 @@
             ]
           },
           {
+            "ti": "SP2.404",
             "tc": "SP2.404",
             "tt": "SP2Device",
             "ps": [
@@ -157,6 +164,7 @@
         ],
         "CT0010": [
           {
+            "ti": "SP1.303",
             "tc": "SP1.303",
             "tt": "SP1Device",
             "ps": [
@@ -206,6 +214,7 @@
       "connections": {
         "SP1.304": [
           {
+            "ti": "SP2.405",
             "tc": "SP2.405",
             "tt": "SP2Device",
             "ps": [
@@ -216,6 +225,7 @@
             ]
           },
           {
+            "ti": "SP2.406",
             "tc": "SP2.406",
             "tt": "SP2Device",
             "ps": [
@@ -228,6 +238,7 @@
         ],
         "CT0017": [
           {
+            "ti": "SP1.304",
             "tc": "SP1.304",
             "tt": "SP1Device",
             "ps": [
@@ -277,6 +288,7 @@
       "connections": {
         "SP1.305": [
           {
+            "ti": "post9_post8",
             "tc": "CT0013",
             "tt": "OpticalCable",
             "ps": [
@@ -295,6 +307,7 @@
             ]
           },
           {
+            "ti": "post9_post10",
             "tc": "CT0015",
             "tt": "OpticalCable",
             "ps": [
@@ -313,6 +326,7 @@
             ]
           },
           {
+            "ti": "SP2.407",
             "tc": "SP2.407",
             "tt": "SP2Device",
             "ps": [
@@ -323,6 +337,7 @@
             ]
           },
           {
+            "ti": "SP2.408",
             "tc": "SP2.408",
             "tt": "SP2Device",
             "ps": [
@@ -335,6 +350,7 @@
         ],
         "CT0014": [
           {
+            "ti": "SP1.305",
             "tc": "SP1.305",
             "tt": "SP1Device",
             "ps": [
@@ -384,6 +400,7 @@
       "connections": {
         "SP1.301": [
           {
+            "ti": "post18_post19",
             "tc": "CT0019",
             "tt": "OpticalCable",
             "ps": [
@@ -402,6 +419,7 @@
             ]
           },
           {
+            "ti": "post18_post21",
             "tc": "CT0021",
             "tt": "OpticalCable",
             "ps": [
@@ -420,6 +438,7 @@
             ]
           },
           {
+            "ti": "SP2.409",
             "tc": "SP2.409",
             "tt": "SP2Device",
             "ps": [
@@ -430,6 +449,7 @@
             ]
           },
           {
+            "ti": "SP2.410",
             "tc": "SP2.410",
             "tt": "SP2Device",
             "ps": [
@@ -442,6 +462,7 @@
         ],
         "CT007": [
           {
+            "ti": "SP1.301",
             "tc": "SP1.301",
             "tt": "SP1Device",
             "ps": [
@@ -491,6 +512,7 @@
       "connections": {
         "SP1.001": [
           {
+            "ti": "post2_post1",
             "tc": "CT002",
             "tt": "OpticalCable",
             "ps": [
@@ -503,6 +525,7 @@
         ],
         "CT003": [
           {
+            "ti": "SP1.001",
             "tc": "SP1.001",
             "tt": "SP1Device",
             "ps": [
@@ -553,6 +576,7 @@
         "SP2.001": [],
         "CT002": [
           {
+            "ti": "SP2.001",
             "tc": "SP2.001",
             "tt": "SP2Device",
             "ps": [
@@ -603,6 +627,7 @@
         "SP2.005": [],
         "CT0011": [
           {
+            "ti": "SP2.005",
             "tc": "SP2.005",
             "tt": "SP2Device",
             "ps": [
@@ -653,6 +678,7 @@
         "SP2.004": [],
         "CT0012": [
           {
+            "ti": "post7_post6",
             "tc": "CT0011",
             "tt": "OpticalCable",
             "ps": [
@@ -663,6 +689,7 @@
             ]
           },
           {
+            "ti": "SP2.004",
             "tc": "SP2.004",
             "tt": "SP2Device",
             "ps": [
@@ -713,6 +740,7 @@
         "SP2.003": [],
         "CT0013": [
           {
+            "ti": "post8_post7",
             "tc": "CT0012",
             "tt": "OpticalCable",
             "ps": [
@@ -727,6 +755,7 @@
             ]
           },
           {
+            "ti": "SP2.003",
             "tc": "SP2.003",
             "tt": "SP2Device",
             "ps": [
@@ -777,6 +806,7 @@
         "SP2.007": [],
         "CT0015": [
           {
+            "ti": "post10_post12",
             "tc": "CT0016",
             "tt": "OpticalCable",
             "ps": [
@@ -791,6 +821,7 @@
             ]
           },
           {
+            "ti": "SP2.007",
             "tc": "SP2.007",
             "tt": "SP2Device",
             "ps": [
@@ -841,6 +872,7 @@
         "SP2.009": [],
         "CT0016": [
           {
+            "ti": "post12_post_of_sp2_1",
             "tc": "CT0018",
             "tt": "OpticalCable",
             "ps": [
@@ -851,6 +883,7 @@
             ]
           },
           {
+            "ti": "SP2.009",
             "tc": "SP2.009",
             "tt": "SP2Device",
             "ps": [
@@ -901,6 +934,7 @@
         "SP2.201": [],
         "CT006": [
           {
+            "ti": "SP2.201",
             "tc": "SP2.201",
             "tt": "SP2Device",
             "ps": [
@@ -951,6 +985,7 @@
         "SP2.202": [],
         "CT0019": [
           {
+            "ti": "post19_post20",
             "tc": "CT0020",
             "tt": "OpticalCable",
             "ps": [
@@ -961,6 +996,7 @@
             ]
           },
           {
+            "ti": "SP2.202",
             "tc": "SP2.202",
             "tt": "SP2Device",
             "ps": [
@@ -1015,6 +1051,7 @@
         "SP2.203": [],
         "CT0020": [
           {
+            "ti": "SP2.203",
             "tc": "SP2.203",
             "tt": "SP2Device",
             "ps": [
@@ -1065,6 +1102,7 @@
         "SP2.204": [],
         "CT0021": [
           {
+            "ti": "post21_post22",
             "tc": "CT008",
             "tt": "OpticalCable",
             "ps": [
@@ -1079,6 +1117,7 @@
             ]
           },
           {
+            "ti": "SP2.204",
             "tc": "SP2.204",
             "tt": "SP2Device",
             "ps": [
@@ -1129,6 +1168,7 @@
         "SP2.205": [],
         "CT008": [
           {
+            "ti": "post22_post23",
             "tc": "CT0022",
             "tt": "OpticalCable",
             "ps": [
@@ -1139,6 +1179,7 @@
             ]
           },
           {
+            "ti": "SP2.205",
             "tc": "SP2.205",
             "tt": "SP2Device",
             "ps": [
@@ -1189,6 +1230,7 @@
         "SP2.206": [],
         "CT0022": [
           {
+            "ti": "SP2.206",
             "tc": "SP2.206",
             "tt": "SP2Device",
             "ps": [
@@ -1239,6 +1281,7 @@
         "SP2.011": [],
         "CT0018": [
           {
+            "ti": "SP2.011",
             "tc": "SP2.011",
             "tt": "SP2Device",
             "ps": [
@@ -1289,6 +1332,7 @@
         "SP2.012": [],
         "CT005": [
           {
+            "ti": "SP2.012",
             "tc": "SP2.012",
             "tt": "SP2Device",
             "ps": [
@@ -1338,6 +1382,7 @@
         "MS0001": [],
         "CT009": [
           {
+            "ti": "post3_post13",
             "tc": "CT001",
             "tt": "OpticalCable",
             "ps": [
@@ -1360,6 +1405,7 @@
             ]
           },
           {
+            "ti": "post3_post2",
             "tc": "CT003",
             "tt": "OpticalCable",
             "ps": [
@@ -1382,6 +1428,7 @@
             ]
           },
           {
+            "ti": "post3_post4",
             "tc": "CT004",
             "tt": "OpticalCable",
             "ps": [
@@ -1404,6 +1451,7 @@
             ]
           },
           {
+            "ti": "post3_post5",
             "tc": "CT0010",
             "tt": "OpticalCable",
             "ps": [
@@ -1465,6 +1513,7 @@
         "MS0002": [],
         "CT001": [
           {
+            "ti": "post13_post9",
             "tc": "CT0014",
             "tt": "OpticalCable",
             "ps": [
@@ -1479,6 +1528,7 @@
             ]
           },
           {
+            "ti": "post13_post11",
             "tc": "CT0017",
             "tt": "OpticalCable",
             "ps": [
@@ -1489,6 +1539,7 @@
             ]
           },
           {
+            "ti": "post13_post18",
             "tc": "CT007",
             "tt": "OpticalCable",
             "ps": [
@@ -1501,6 +1552,33 @@
         ]
       },
       "code": "MS0002"
+    },
+    {
+      "nodeId": "hfc51",
+      "nodeType": "PostNode",
+      "devices": [],
+      "cables": [
+        {
+          "id": "post23_hfc51",
+          "sc": "container1",
+          "tc": "container2",
+          "sn": "post23",
+          "tn": "hfc51",
+          "code": "CT0023",
+          "nuc": 0,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 12,
+            "variant": "OC_12",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "CT0023": []
+      },
+      "code": "container2"
     }
   ]
 }

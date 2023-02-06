@@ -2,36 +2,39 @@
   "containers": [
     {
       "nodeId": "headend-1",
-      "nodeType": "HeadEndNode",
+      "nodeType": null,
+      "containerType": "HeadEndContainer",
+      "containerCode": "VPC001",
       "devices": [],
       "cables": [],
-      "connections": {},
-      "code": "VPC001"
+      "connections": {}
     },
     {
       "nodeId": "post4",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container1",
       "devices": [
         {
           "id": "SP1.302",
           "code": "SP1.302",
+          "type": "SP1Device",
+          "n": 2,
           "s": {
             "maxOutputPorts": 8,
             "variant": "S1_8_2S2_8"
-          },
-          "nup": 2,
-          "type": "SP1Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post3_post4",
+          "code": "CT004",
           "sc": "MS0001",
           "tc": "container1",
           "sn": "post3",
           "tn": "post4",
-          "code": "CT004",
-          "nuc": 3,
+          "n": 3,
           "s": {
             "uplink": false,
             "length": 0,
@@ -101,33 +104,34 @@
             ]
           }
         ]
-      },
-      "code": "container1"
+      }
     },
     {
       "nodeId": "post5",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container2",
       "devices": [
         {
           "id": "SP1.303",
           "code": "SP1.303",
+          "type": "SP1Device",
+          "n": 4,
           "s": {
             "maxOutputPorts": 8,
             "variant": "S1_8_2S2_8"
-          },
-          "nup": 4,
-          "type": "SP1Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post3_post5",
+          "code": "CT0012",
           "sc": "MS0001",
           "tc": "container2",
           "sn": "post3",
           "tn": "post5",
-          "code": "CT0012",
-          "nuc": 1,
+          "n": 1,
           "s": {
             "uplink": false,
             "length": 0,
@@ -197,33 +201,34 @@
             ]
           }
         ]
-      },
-      "code": "container2"
+      }
     },
     {
       "nodeId": "post11",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container3",
       "devices": [
         {
           "id": "SP1.304",
           "code": "SP1.304",
+          "type": "SP1Device",
+          "n": 2,
           "s": {
             "maxOutputPorts": 8,
             "variant": "S1_8_2S2_8"
-          },
-          "nup": 2,
-          "type": "SP1Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post13_post11",
+          "code": "CT0020",
           "sc": "MS0002",
           "tc": "container3",
           "sn": "post13",
           "tn": "post11",
-          "code": "CT0020",
-          "nuc": 1,
+          "n": 1,
           "s": {
             "uplink": false,
             "length": 0,
@@ -271,33 +276,34 @@
             ]
           }
         ]
-      },
-      "code": "container3"
+      }
     },
     {
       "nodeId": "post9",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container4",
       "devices": [
         {
           "id": "SP1.305",
           "code": "SP1.305",
+          "type": "SP1Device",
+          "n": 4,
           "s": {
             "maxOutputPorts": 8,
             "variant": "S1_8_2S2_8"
-          },
-          "nup": 4,
-          "type": "SP1Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post13_post9",
+          "code": "CT0017",
           "sc": "MS0002",
           "tc": "container4",
           "sn": "post13",
           "tn": "post9",
-          "code": "CT0017",
-          "nuc": 1,
+          "n": 1,
           "s": {
             "uplink": false,
             "length": 0,
@@ -383,33 +389,34 @@
             ]
           }
         ]
-      },
-      "code": "container4"
+      }
     },
     {
       "nodeId": "post18",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container20",
       "devices": [
         {
           "id": "SP1.301",
           "code": "SP1.301",
+          "type": "SP1Device",
+          "n": 4,
           "s": {
             "maxOutputPorts": 8,
             "variant": "S1_8_2S2_8"
-          },
-          "nup": 4,
-          "type": "SP1Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post13_post18",
+          "code": "CT009",
           "sc": "MS0002",
           "tc": "container20",
           "sn": "post13",
           "tn": "post18",
-          "code": "CT009",
-          "nuc": 1,
+          "n": 1,
           "s": {
             "uplink": false,
             "length": 0,
@@ -495,33 +502,34 @@
             ]
           }
         ]
-      },
-      "code": "container20"
+      }
     },
     {
       "nodeId": "post2",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container13",
       "devices": [
         {
           "id": "SP1.001",
           "code": "SP1.001",
+          "type": "SP1Device",
+          "n": 1,
           "s": {
             "maxOutputPorts": 4,
             "variant": "S1_4"
-          },
-          "nup": 1,
-          "type": "SP1Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post3_post2",
+          "code": "CT003",
           "sc": "MS0001",
           "tc": "container13",
           "sn": "post3",
           "tn": "post2",
-          "code": "CT003",
-          "nuc": 1,
+          "n": 1,
           "s": {
             "uplink": false,
             "length": 0,
@@ -558,33 +566,34 @@
             ]
           }
         ]
-      },
-      "code": "container13"
+      }
     },
     {
       "nodeId": "post8",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container8",
       "devices": [
         {
           "id": "SP1.002",
           "code": "SP1.002",
+          "type": "SP1Device",
+          "n": 1,
           "s": {
             "maxOutputPorts": 8,
             "variant": "S1_4"
-          },
-          "nup": 1,
-          "type": "SP1Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post9_post8",
+          "code": "CT0016",
           "sc": "container4",
           "tc": "container8",
           "sn": "post9",
           "tn": "post8",
-          "code": "CT0016",
-          "nuc": 2,
+          "n": 2,
           "s": {
             "uplink": false,
             "length": 0,
@@ -640,33 +649,34 @@
             ]
           }
         ]
-      },
-      "code": "container8"
+      }
     },
     {
       "nodeId": "post1",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container5",
       "devices": [
         {
           "id": "SP2.001",
           "code": "SP2.001",
+          "type": "SP2Device",
+          "n": 0,
           "s": {
             "maxOutputPorts": 4,
             "variant": "S2_4"
-          },
-          "nup": 0,
-          "type": "SP2Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post2_post1",
+          "code": "CT002",
           "sc": "container13",
           "tc": "container5",
           "sn": "post2",
           "tn": "post1",
-          "code": "CT002",
-          "nuc": 1,
+          "n": 1,
           "s": {
             "uplink": false,
             "length": 0,
@@ -691,33 +701,34 @@
             ]
           }
         ]
-      },
-      "code": "container5"
+      }
     },
     {
       "nodeId": "post6",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container6",
       "devices": [
         {
           "id": "SP2.005",
           "code": "SP2.005",
+          "type": "SP2Device",
+          "n": 0,
           "s": {
             "maxOutputPorts": 8,
             "variant": "S2_8"
-          },
-          "nup": 0,
-          "type": "SP2Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post7_post6",
+          "code": "CT0013",
           "sc": "container7",
           "tc": "container6",
           "sn": "post7",
           "tn": "post6",
-          "code": "CT0013",
-          "nuc": 1,
+          "n": 1,
           "s": {
             "uplink": false,
             "length": 0,
@@ -742,33 +753,34 @@
             ]
           }
         ]
-      },
-      "code": "container6"
+      }
     },
     {
       "nodeId": "post7",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container7",
       "devices": [
         {
           "id": "SP2.004",
           "code": "SP2.004",
+          "type": "SP2Device",
+          "n": 0,
           "s": {
             "maxOutputPorts": 4,
             "variant": "S2_4"
-          },
-          "nup": 0,
-          "type": "SP2Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post8_post7",
+          "code": "CT0014",
           "sc": "container8",
           "tc": "container7",
           "sn": "post8",
           "tn": "post7",
-          "code": "CT0014",
-          "nuc": 2,
+          "n": 2,
           "s": {
             "uplink": false,
             "length": 0,
@@ -804,33 +816,34 @@
             ]
           }
         ]
-      },
-      "code": "container7"
+      }
     },
     {
       "nodeId": "post10",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container9",
       "devices": [
         {
           "id": "SP2.007",
           "code": "SP2.007",
+          "type": "SP2Device",
+          "n": 0,
           "s": {
             "maxOutputPorts": 4,
             "variant": "S2_4"
-          },
-          "nup": 0,
-          "type": "SP2Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post9_post10",
+          "code": "CT0018",
           "sc": "container4",
           "tc": "container9",
           "sn": "post9",
           "tn": "post10",
-          "code": "CT0018",
-          "nuc": 2,
+          "n": 2,
           "s": {
             "uplink": false,
             "length": 0,
@@ -870,33 +883,34 @@
             ]
           }
         ]
-      },
-      "code": "container9"
+      }
     },
     {
       "nodeId": "post12",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container10",
       "devices": [
         {
           "id": "SP2.009",
           "code": "SP2.009",
+          "type": "SP2Device",
+          "n": 0,
           "s": {
             "maxOutputPorts": 4,
             "variant": "S2_4"
-          },
-          "nup": 0,
-          "type": "SP2Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post10_post12",
+          "code": "CT0019",
           "sc": "container9",
           "tc": "container10",
           "sn": "post10",
           "tn": "post12",
-          "code": "CT0019",
-          "nuc": 2,
+          "n": 2,
           "s": {
             "uplink": false,
             "length": 0,
@@ -932,33 +946,34 @@
             ]
           }
         ]
-      },
-      "code": "container10"
+      }
     },
     {
       "nodeId": "post17",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container14",
       "devices": [
         {
           "id": "SP2.201",
           "code": "SP2.201",
+          "type": "SP2Device",
+          "n": 0,
           "s": {
             "maxOutputPorts": 4,
             "variant": "S2_4"
-          },
-          "nup": 0,
-          "type": "SP2Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post5_post17",
+          "code": "CT008",
           "sc": "container2",
           "tc": "container14",
           "sn": "post5",
           "tn": "post17",
-          "code": "CT008",
-          "nuc": 1,
+          "n": 1,
           "s": {
             "uplink": false,
             "length": 0,
@@ -983,33 +998,34 @@
             ]
           }
         ]
-      },
-      "code": "container14"
+      }
     },
     {
       "nodeId": "post19",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container15",
       "devices": [
         {
           "id": "SP2.202",
           "code": "SP2.202",
+          "type": "SP2Device",
+          "n": 0,
           "s": {
             "maxOutputPorts": 16,
             "variant": "2S2_8"
-          },
-          "nup": 0,
-          "type": "SP2Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post18_post19",
+          "code": "CT0022",
           "sc": "container20",
           "tc": "container15",
           "sn": "post18",
           "tn": "post19",
-          "code": "CT0022",
-          "nuc": 2,
+          "n": 2,
           "s": {
             "uplink": false,
             "length": 0,
@@ -1049,33 +1065,34 @@
             ]
           }
         ]
-      },
-      "code": "container15"
+      }
     },
     {
       "nodeId": "post20",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container16",
       "devices": [
         {
           "id": "SP2.203",
           "code": "SP2.203",
+          "type": "SP2Device",
+          "n": 0,
           "s": {
             "maxOutputPorts": 8,
             "variant": "S2_8"
-          },
-          "nup": 0,
-          "type": "SP2Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post19_post20",
+          "code": "CT0023",
           "sc": "container15",
           "tc": "container16",
           "sn": "post19",
           "tn": "post20",
-          "code": "CT0023",
-          "nuc": 1,
+          "n": 1,
           "s": {
             "uplink": false,
             "length": 0,
@@ -1100,33 +1117,34 @@
             ]
           }
         ]
-      },
-      "code": "container16"
+      }
     },
     {
       "nodeId": "post21",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container17",
       "devices": [
         {
           "id": "SP2.204",
           "code": "SP2.204",
+          "type": "SP2Device",
+          "n": 0,
           "s": {
             "maxOutputPorts": 4,
             "variant": "S2_4"
-          },
-          "nup": 0,
-          "type": "SP2Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post18_post21",
+          "code": "CT0024",
           "sc": "container20",
           "tc": "container17",
           "sn": "post18",
           "tn": "post21",
-          "code": "CT0024",
-          "nuc": 2,
+          "n": 2,
           "s": {
             "uplink": false,
             "length": 0,
@@ -1166,33 +1184,34 @@
             ]
           }
         ]
-      },
-      "code": "container17"
+      }
     },
     {
       "nodeId": "post22",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container18",
       "devices": [
         {
           "id": "SP2.205",
           "code": "SP2.205",
+          "type": "SP2Device",
+          "n": 0,
           "s": {
             "maxOutputPorts": 4,
             "variant": "S2_4"
-          },
-          "nup": 0,
-          "type": "SP2Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post21_post22",
+          "code": "CT0010",
           "sc": "container17",
           "tc": "container18",
           "sn": "post21",
           "tn": "post22",
-          "code": "CT0010",
-          "nuc": 2,
+          "n": 2,
           "s": {
             "uplink": false,
             "length": 0,
@@ -1228,33 +1247,34 @@
             ]
           }
         ]
-      },
-      "code": "container18"
+      }
     },
     {
       "nodeId": "post23",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container19",
       "devices": [
         {
           "id": "SP2.206",
           "code": "SP2.206",
+          "type": "SP2Device",
+          "n": 0,
           "s": {
             "maxOutputPorts": 8,
             "variant": "S2_8"
-          },
-          "nup": 0,
-          "type": "SP2Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post22_post23",
+          "code": "CT0025",
           "sc": "container18",
           "tc": "container19",
           "sn": "post22",
           "tn": "post23",
-          "code": "CT0025",
-          "nuc": 1,
+          "n": 1,
           "s": {
             "uplink": false,
             "length": 0,
@@ -1279,33 +1299,34 @@
             ]
           }
         ]
-      },
-      "code": "container19"
+      }
     },
     {
       "nodeId": "post_of_sp2_1",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container11",
       "devices": [
         {
           "id": "SP2.011",
           "code": "SP2.011",
+          "type": "SP2Device",
+          "n": 0,
           "s": {
             "maxOutputPorts": 4,
             "variant": "S2_4"
-          },
-          "nup": 0,
-          "type": "SP2Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post12_post_of_sp2_1",
+          "code": "CT0021",
           "sc": "container10",
           "tc": "container11",
           "sn": "post12",
           "tn": "post_of_sp2_1",
-          "code": "CT0021",
-          "nuc": 1,
+          "n": 1,
           "s": {
             "uplink": false,
             "length": 0,
@@ -1330,33 +1351,34 @@
             ]
           }
         ]
-      },
-      "code": "container11"
+      }
     },
     {
       "nodeId": "post15",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container21",
       "devices": [
         {
           "id": "SP2.411",
           "code": "SP2.411",
+          "type": "SP2Device",
+          "n": 0,
           "s": {
             "maxOutputPorts": 4,
             "variant": "S2_4"
-          },
-          "nup": 0,
-          "type": "SP2Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post8_post15",
+          "code": "CT0015",
           "sc": "container8",
           "tc": "container21",
           "sn": "post8",
           "tn": "post15",
-          "code": "CT0015",
-          "nuc": 1,
+          "n": 1,
           "s": {
             "uplink": false,
             "length": 0,
@@ -1381,33 +1403,34 @@
             ]
           }
         ]
-      },
-      "code": "container21"
+      }
     },
     {
       "nodeId": "post16",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container12",
       "devices": [
         {
           "id": "SP2.012",
           "code": "SP2.012",
+          "type": "SP2Device",
+          "n": 0,
           "s": {
             "maxOutputPorts": 8,
             "variant": "S2_8"
-          },
-          "nup": 0,
-          "type": "SP2Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post5_post16",
+          "code": "CT007",
           "sc": "container2",
           "tc": "container12",
           "sn": "post5",
           "tn": "post16",
-          "code": "CT007",
-          "nuc": 1,
+          "n": 1,
           "s": {
             "uplink": false,
             "length": 0,
@@ -1432,33 +1455,34 @@
             ]
           }
         ]
-      },
-      "code": "container12"
+      }
     },
     {
       "nodeId": "post24",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container22",
       "devices": [
         {
           "id": "SP2.413",
           "code": "SP2.413",
+          "type": "SP2Device",
+          "n": 0,
           "s": {
             "maxOutputPorts": 4,
             "variant": "S2_4"
-          },
-          "nup": 0,
-          "type": "SP2Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post4_post24",
+          "code": "CT005",
           "sc": "container1",
           "tc": "container22",
           "sn": "post4",
           "tn": "post24",
-          "code": "CT005",
-          "nuc": 1,
+          "n": 1,
           "s": {
             "uplink": false,
             "length": 0,
@@ -1483,33 +1507,34 @@
             ]
           }
         ]
-      },
-      "code": "container22"
+      }
     },
     {
       "nodeId": "post25",
-      "nodeType": "PostNode",
+      "nodeType": null,
+      "containerType": "Container",
+      "containerCode": "container23",
       "devices": [
         {
           "id": "SP2.414",
           "code": "SP2.414",
+          "type": "SP2Device",
+          "n": 0,
           "s": {
             "maxOutputPorts": 4,
             "variant": "S2_4"
-          },
-          "nup": 0,
-          "type": "SP2Device"
+          }
         }
       ],
       "cables": [
         {
           "id": "post4_post25",
+          "code": "CT006",
           "sc": "container1",
           "tc": "container23",
           "sn": "post4",
           "tn": "post25",
-          "code": "CT006",
-          "nuc": 1,
+          "n": 1,
           "s": {
             "uplink": false,
             "length": 0,
@@ -1534,32 +1559,33 @@
             ]
           }
         ]
-      },
-      "code": "container23"
+      }
     },
     {
       "nodeId": "post3",
-      "nodeType": "MSNode",
+      "nodeType": null,
+      "containerType": "MSContainer",
+      "containerCode": "MS0001",
       "devices": [
         {
           "id": "196922d3-212c-4ff5-a54f-ca6a5ad21d60",
           "code": "MS0001",
+          "type": "MSDevice",
+          "n": 0,
           "s": {
             "variant": "MS_96"
-          },
-          "nup": 0,
-          "type": "MSDevice"
+          }
         }
       ],
       "cables": [
         {
           "id": "VPC001_post3",
+          "code": "CT0011",
           "sc": "VPC001",
           "tc": "MS0001",
           "sn": "headend-1",
           "tn": "post3",
-          "code": "CT0011",
-          "nuc": 4,
+          "n": 4,
           "s": {
             "uplink": true,
             "length": 0,
@@ -1665,32 +1691,33 @@
             ]
           }
         ]
-      },
-      "code": "MS0001"
+      }
     },
     {
       "nodeId": "post13",
-      "nodeType": "MSNode",
+      "nodeType": null,
+      "containerType": "MSContainer",
+      "containerCode": "MS0002",
       "devices": [
         {
           "id": "f35cc974-0b02-4ae8-8ef1-19133fae1745",
           "code": "MS0002",
+          "type": "MSDevice",
+          "n": 0,
           "s": {
             "variant": "MS_12"
-          },
-          "nup": 0,
-          "type": "MSDevice"
+          }
         }
       ],
       "cables": [
         {
           "id": "post3_post13",
+          "code": "CT001",
           "sc": "MS0001",
           "tc": "MS0002",
           "sn": "post3",
           "tn": "post13",
-          "code": "CT001",
-          "nuc": 3,
+          "n": 3,
           "s": {
             "uplink": false,
             "length": 0,
@@ -1741,8 +1768,7 @@
             ]
           }
         ]
-      },
-      "code": "MS0002"
+      }
     }
   ]
 }

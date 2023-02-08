@@ -2,7 +2,6 @@
   "containers": [
     {
       "nodeId": "headend-1",
-      "nodeType": null,
       "containerType": "HeadEndContainer",
       "containerCode": "VPC001",
       "devices": [],
@@ -11,7 +10,6 @@
     },
     {
       "nodeId": "post4",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container1",
       "devices": [
@@ -108,7 +106,6 @@
     },
     {
       "nodeId": "post5",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container2",
       "devices": [
@@ -116,7 +113,7 @@
           "id": "SP1.303",
           "code": "SP1.303",
           "type": "SP1Device",
-          "n": 4,
+          "n": 5,
           "s": {
             "maxOutputPorts": 8,
             "variant": "S1_8_2S2_8"
@@ -151,6 +148,25 @@
               {
                 "s": 3,
                 "t": 1
+              },
+              {
+                "s": 4,
+                "t": 2
+              }
+            ]
+          },
+          {
+            "ti": "post5_post16_2",
+            "tc": "CT0027",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 5,
+                "t": 1
+              },
+              {
+                "s": 6,
+                "t": 2
               }
             ]
           },
@@ -160,7 +176,7 @@
             "tt": "OpticalCable",
             "ps": [
               {
-                "s": 4,
+                "s": 7,
                 "t": 1
               }
             ]
@@ -205,7 +221,6 @@
     },
     {
       "nodeId": "post11",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container3",
       "devices": [
@@ -280,7 +295,6 @@
     },
     {
       "nodeId": "post9",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container4",
       "devices": [
@@ -393,7 +407,6 @@
     },
     {
       "nodeId": "post18",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container20",
       "devices": [
@@ -506,7 +519,6 @@
     },
     {
       "nodeId": "post2",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container13",
       "devices": [
@@ -570,7 +582,6 @@
     },
     {
       "nodeId": "post8",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container8",
       "devices": [
@@ -580,7 +591,7 @@
           "type": "SP1Device",
           "n": 1,
           "s": {
-            "maxOutputPorts": 8,
+            "maxOutputPorts": 4,
             "variant": "S1_4"
           }
         }
@@ -653,7 +664,6 @@
     },
     {
       "nodeId": "post1",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container5",
       "devices": [
@@ -705,7 +715,6 @@
     },
     {
       "nodeId": "post6",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container6",
       "devices": [
@@ -757,7 +766,6 @@
     },
     {
       "nodeId": "post7",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container7",
       "devices": [
@@ -820,7 +828,6 @@
     },
     {
       "nodeId": "post10",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container9",
       "devices": [
@@ -887,7 +894,6 @@
     },
     {
       "nodeId": "post12",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container10",
       "devices": [
@@ -950,7 +956,6 @@
     },
     {
       "nodeId": "post17",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container14",
       "devices": [
@@ -1002,7 +1007,6 @@
     },
     {
       "nodeId": "post19",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container15",
       "devices": [
@@ -1012,8 +1016,8 @@
           "type": "SP2Device",
           "n": 0,
           "s": {
-            "maxOutputPorts": 16,
-            "variant": "2S2_8"
+            "maxOutputPorts": 8,
+            "variant": "S2_8"
           }
         }
       ],
@@ -1069,7 +1073,6 @@
     },
     {
       "nodeId": "post20",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container16",
       "devices": [
@@ -1121,7 +1124,6 @@
     },
     {
       "nodeId": "post21",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container17",
       "devices": [
@@ -1188,7 +1190,6 @@
     },
     {
       "nodeId": "post22",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container18",
       "devices": [
@@ -1251,7 +1252,6 @@
     },
     {
       "nodeId": "post23",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container19",
       "devices": [
@@ -1303,7 +1303,6 @@
     },
     {
       "nodeId": "post_of_sp2_1",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container11",
       "devices": [
@@ -1355,7 +1354,6 @@
     },
     {
       "nodeId": "post15",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container21",
       "devices": [
@@ -1407,7 +1405,6 @@
     },
     {
       "nodeId": "post16",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container12",
       "devices": [
@@ -1430,6 +1427,22 @@
           "tc": "container12",
           "sn": "post5",
           "tn": "post16",
+          "n": 2,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 8,
+            "variant": "OC_8",
+            "implementType": 1
+          }
+        },
+        {
+          "id": "post5_post16_2",
+          "code": "CT0027",
+          "sc": "container2",
+          "tc": "container12",
+          "sn": "post5",
+          "tn": "post16",
           "n": 1,
           "s": {
             "uplink": false,
@@ -1444,6 +1457,17 @@
         "SP2.012": [],
         "CT007": [
           {
+            "ti": "post16_post26",
+            "tc": "CT0026",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 2,
+                "t": 1
+              }
+            ]
+          },
+          {
             "ti": "SP2.012",
             "tc": "SP2.012",
             "tt": "SP2Device",
@@ -1454,12 +1478,24 @@
               }
             ]
           }
+        ],
+        "CT0027": [
+          {
+            "ti": "post16_post27",
+            "tc": "CT0028",
+            "tt": "OpticalCable",
+            "ps": [
+              {
+                "s": 1,
+                "t": 1
+              }
+            ]
+          }
         ]
       }
     },
     {
       "nodeId": "post24",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container22",
       "devices": [
@@ -1511,7 +1547,6 @@
     },
     {
       "nodeId": "post25",
-      "nodeType": null,
       "containerType": "Container",
       "containerCode": "container23",
       "devices": [
@@ -1562,13 +1597,114 @@
       }
     },
     {
+      "nodeId": "post26",
+      "containerType": "Container",
+      "containerCode": "container24",
+      "devices": [
+        {
+          "id": "SP2.415",
+          "code": "SP2.415",
+          "type": "SP2Device",
+          "n": 0,
+          "s": {
+            "maxOutputPorts": 4,
+            "variant": "S2_4"
+          }
+        }
+      ],
+      "cables": [
+        {
+          "id": "post16_post26",
+          "code": "CT0026",
+          "sc": "container12",
+          "tc": "container24",
+          "sn": "post16",
+          "tn": "post26",
+          "n": 1,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 8,
+            "variant": "OC_8",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "SP2.415": [],
+        "CT0026": [
+          {
+            "ti": "SP2.415",
+            "tc": "SP2.415",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "nodeId": "post27",
+      "containerType": "Container",
+      "containerCode": "container25",
+      "devices": [
+        {
+          "id": "SP2.416",
+          "code": "SP2.416",
+          "type": "SP2Device",
+          "n": 0,
+          "s": {
+            "maxOutputPorts": 4,
+            "variant": "S2_4"
+          }
+        }
+      ],
+      "cables": [
+        {
+          "id": "post16_post27",
+          "code": "CT0028",
+          "sc": "container12",
+          "tc": "container25",
+          "sn": "post16",
+          "tn": "post27",
+          "n": 1,
+          "s": {
+            "uplink": false,
+            "length": 0,
+            "numberOfCores": 8,
+            "variant": "OC_8",
+            "implementType": 1
+          }
+        }
+      ],
+      "connections": {
+        "SP2.416": [],
+        "CT0028": [
+          {
+            "ti": "SP2.416",
+            "tc": "SP2.416",
+            "tt": "SP2Device",
+            "ps": [
+              {
+                "s": 1,
+                "t": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "nodeId": "post3",
-      "nodeType": null,
       "containerType": "MSContainer",
       "containerCode": "MS0001",
       "devices": [
         {
-          "id": "196922d3-212c-4ff5-a54f-ca6a5ad21d60",
+          "id": "eefb0fc1-06a9-45be-b3e0-4edc4f3b22ae",
           "code": "MS0001",
           "type": "MSDevice",
           "n": 0,
@@ -1695,12 +1831,11 @@
     },
     {
       "nodeId": "post13",
-      "nodeType": null,
       "containerType": "MSContainer",
       "containerCode": "MS0002",
       "devices": [
         {
-          "id": "f35cc974-0b02-4ae8-8ef1-19133fae1745",
+          "id": "b3ab6e2e-d0f3-4f22-9446-a9038dc26292",
           "code": "MS0002",
           "type": "MSDevice",
           "n": 0,

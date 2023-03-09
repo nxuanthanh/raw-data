@@ -34,7 +34,8 @@
     createDate: '20/11/2022',
     location: 'KTV 0004',
     action: 'remove',
-  }, {
+  }, 
+  {
     id: 5,
     checked: false,
     property: 'Toạ độ địa lý',
@@ -51,7 +52,8 @@
     createDate: '20/11/2022',
     location: 'KTV 0004',
     action: 'remove',
-  }, {
+  }, 
+  {
     id: 7,
     checked: false,
     property: 'Toạ độ địa lý',
@@ -68,7 +70,8 @@
     createDate: '20/11/2022',
     location: 'KTV 0004',
     action: 'remove',
-  }, {
+  }, 
+  {
     id: 9,
     checked: false,
     property: 'Toạ độ địa lý',
@@ -85,7 +88,8 @@
     createDate: '20/11/2022',
     location: 'KTV 0004',
     action: 'remove',
-  }, {
+  }, 
+  {
     id: 11,
     checked: false,
     property: 'Toạ độ địa lý',
@@ -102,7 +106,8 @@
     createDate: '20/11/2022',
     location: 'KTV 0004',
     action: 'remove',
-  }, {
+  }, 
+  {
     id: 13,
     checked: false,
     property: 'Toạ độ địa lý',
@@ -119,7 +124,8 @@
     createDate: '20/11/2022',
     location: 'KTV 0004',
     action: 'remove',
-  }, {
+  }, 
+  {
     id: 14,
     checked: false,
     property: 'Toạ độ địa lý',
@@ -136,7 +142,8 @@
     createDate: '20/11/2022',
     location: 'KTV 0004',
     action: 'remove',
-  }, {
+  }, 
+  {
     id: 16,
     checked: false,
     property: 'Toạ độ địa lý',
@@ -153,7 +160,8 @@
     createDate: '20/11/2022',
     location: 'KTV 0004',
     action: 'remove',
-  }, {
+  },
+  {
     id: 18,
     checked: false,
     property: 'Toạ độ địa lý',

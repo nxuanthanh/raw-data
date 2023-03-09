@@ -1,6 +1,4 @@
 {
-  containers: [
-  {
     id: 1,
     checked: false,
     property: 'Toạ độ địa lý',
@@ -162,7 +160,5 @@
     createDate: '20/11/2022',
     location: 'Admin Chi nhánh Đà Nẵng',
     action: 'edit',
-  },
+  }
 ]
-
-}
